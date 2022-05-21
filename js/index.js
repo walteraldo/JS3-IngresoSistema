@@ -11,7 +11,7 @@ btn.addEventListener('click', () => {
   } else if (pass.value == "") { 
     alert('Complete su contraseña');
   } else {
-    alert('Ingreso correcto');
+    alert('Profe, no me funcionó el setCustomValid');
   }
 });
 
