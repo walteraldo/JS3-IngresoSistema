@@ -1,0 +1,43 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html{
+  font-family: 'Roboto', sans-serif;
+  /* font-size: 62.5%; */
+  background-color: #f0efed;
+  width: 20%;
+  margin: 4em auto 0 auto;
+}
+
+.form-title {
+  margin-bottom: 1em;
+}
+
+.form-usuario{
+  margin-bottom: 1em;
+}
+
+.form-pass {
+  margin-bottom: 1em;
+}
+
+.form-title h2{
+  text-align: center;
+}
+
+.container{
+  width: fit-content;
+}
+
+
+
+label{
+  display: block;
+  float: left;
+  width: 70px;
+}
