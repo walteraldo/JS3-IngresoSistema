@@ -17,17 +17,16 @@ btn.addEventListener('click', () => {
 
   if(user.value == ''){
     user.setCustomValidity('Complete su nombre');
-    console.log('user -->', user.value);
   } else if(!user.value.includes("@")){
     user.setCustomValidity('Debe contener un @');
-    console.log('user -->', user.value);
   } else if (pass.value == ""){
     pass.setCustomValidity('Complete su contraseña');
-    console.log('pass -->', pass);
   } else {
     alert('Ingreso correcto');
     user.value = '';
     pass.value = '';
+    user.setCustomValidity('');
+    pass.setCustomValidity('');
   }
 
   
